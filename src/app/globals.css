@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* 2015 Classic Enterprise Theme Utilities */
+.bg-enterprise-header {
+  background: linear-gradient(180deg, #3a4756 0%, #232c37 100%);
+  border-bottom: 2px solid #1a222a;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.bg-toolbar-gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #e6ecf2 100%);
+  border-bottom: 1px solid #b8c4d1;
+}
+
+.panel-2015 {
+  background: #ffffff;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.panel-header-2015 {
+  background: linear-gradient(180deg, #f7f9fa 0%, #e4e9ed 100%);
+  border-bottom: 1px solid #b0bec5;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-shadow: 0 1px 0 #ffffff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.btn-2015 {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.4);
+}
+
+.btn-2015:active {
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.3) !important;
+  transform: translateY(1px);
+}
+
+.btn-primary-2015 {
+  background: linear-gradient(180deg, #337ab7 0%, #286090 100%);
+  border: 1px solid #204d74;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+}
+.btn-primary-2015:hover {
+  background: linear-gradient(180deg, #286090 0%, #1f4e79 100%);
+}
+
+.btn-success-2015 {
+  background: linear-gradient(180deg, #5cb85c 0%, #449d44 100%);
+  border: 1px solid #398439;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+}
+.btn-success-2015:hover {
+  background: linear-gradient(180deg, #449d44 0%, #398439 100%);
+}
+
+.btn-warning-2015 {
+  background: linear-gradient(180deg, #f0ad4e 0%, #ec971f 100%);
+  border: 1px solid #d58512;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+}
+.btn-warning-2015:hover {
+  background: linear-gradient(180deg, #ec971f 0%, #d58512 100%);
+}
+
+.btn-silver-2015 {
+  background: linear-gradient(180deg, #ffffff 0%, #e6e6e6 100%);
+  border: 1px solid #adadad;
+  color: #333333;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.btn-silver-2015:hover {
+  background: linear-gradient(180deg, #f0f0f0 0%, #d9d9d9 100%);
+}
+
+.tab-2015 {
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5568;
+  border: 1px solid transparent;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  margin-bottom: -1px;
+}
+.tab-2015-active {
+  background: #ffffff !important;
+  color: #2b6cb0 !important;
+  border-color: #b0bec5 #b0bec5 #ffffff #b0bec5 !important;
+  box-shadow: 0 -2px 0 #3182ce;
+  font-weight: 700;
+}
+
+.table-2015 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.table-2015 th {
+  background: linear-gradient(180deg, #f5f7fa 0%, #e4e7eb 100%);
+  border: 1px solid #cbd5e0;
+  padding: 7px 10px;
+  text-align: left;
+  font-weight: 700;
+  color: #2d3748;
+}
+.table-2015 td {
+  border: 1px solid #e2e8f0;
+  padding: 6px 10px;
+  color: #333;
+}
+.table-2015 tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+.table-2015 tr:hover {
+  background-color: #edf2f7;
+}
+
+.badge-2015 {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
+}
+
+.badge-high {
+  background: #d9534f;
+  color: white;
+  border: 1px solid #d43f3a;
+}
+.badge-medium {
+  background: #f0ad4e;
+  color: white;
+  border: 1px solid #eea236;
+}
+.badge-low {
+  background: #5bc0de;
+  color: white;
+  border: 1px solid #46b8da;
+}
+
+.metric-card-2015 {
+  background: linear-gradient(180deg, #ffffff 0%, #f4f6f8 100%);
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.blink-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #5cb85c;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #5cb85c;
+  animation: pulse-green 1.5s infinite;
+}
+
+@keyframes pulse-green {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Custom Scrollbar for 2015 feel */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+  border: 2px solid #e2e8f0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
