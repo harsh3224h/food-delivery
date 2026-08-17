@@ -1,0 +1,56 @@
+item_id,item_name,category,quantity,length,width,height,weight,demand_frequency,priority,temperatureRequirement,fragility
+ITEM-101,Fresh Organic Milk (1L Bottle),Dairy & Refrigerated,40,12,12,25,1.0,450,1,Chilled,Low
+ITEM-102,Artisanal Sliced White Bread (500g),Bakery & Snacks,35,28,14,14,0.5,380,1,Ambient,High
+ITEM-103,Pre-Cooked Pepperoni Pizza (Frozen),Frozen & Ice Cream,30,32,32,5,0.8,320,2,Frozen,Medium
+ITEM-104,Sparkling Mineral Water (Pack of 6x500ml),Beverages,25,22,15,22,3.2,290,2,Ambient,Low
+ITEM-105,Fresh Avocado Bag (4 Count),Fresh Produce,20,20,15,10,0.7,270,1,Ambient,Medium
+ITEM-106,Greek Yogurt Plain (500g Tub),Dairy & Refrigerated,45,12,12,10,0.5,310,1,Chilled,Medium
+ITEM-107,Cheddar Cheese Block (250g),Dairy & Refrigerated,50,14,8,4,0.25,260,2,Chilled,Low
+ITEM-108,Large Grade A Eggs (12-pack),Dairy & Refrigerated,60,30,11,7,0.75,490,1,Chilled,High
+ITEM-109,Unsalted Butter (200g),Dairy & Refrigerated,40,12,6,4,0.2,230,2,Chilled,Low
+ITEM-110,Almond Milk Unsweetened (1L),Dairy & Refrigerated,30,10,8,22,1.05,280,2,Ambient,Low
+ITEM-111,Whole Wheat Sourdough Loaf (600g),Bakery & Snacks,25,26,15,12,0.6,210,1,Ambient,High
+ITEM-112,Chocolate Chip Cookies (Pack of 8),Bakery & Snacks,50,20,10,6,0.3,340,3,Ambient,High
+ITEM-113,Gluten-Free Bagels (Pack of 4),Bakery & Snacks,20,15,15,10,0.4,150,2,Ambient,Medium
+ITEM-114,Tortilla Chips Sea Salt (300g),Bakery & Snacks,45,24,10,32,0.3,360,3,Ambient,High
+ITEM-115,Roasted Almonds Salted (200g Pouch),Bakery & Snacks,60,15,5,20,0.2,290,3,Ambient,Low
+ITEM-116,Vanilla Bean Ice Cream Tub (1L),Frozen & Ice Cream,35,16,16,12,0.9,275,2,Frozen,Medium
+ITEM-117,Frozen Wild Blueberries (500g Bag),Frozen & Ice Cream,40,20,6,25,0.5,220,2,Frozen,Low
+ITEM-118,Frozen French Fries (1kg Bag),Frozen & Ice Cream,55,28,8,35,1.0,410,2,Frozen,Low
+ITEM-119,Frozen Atlantic Salmon Fillets (4x125g),Meat & Seafood,25,22,16,6,0.5,195,1,Frozen,Low
+ITEM-120,Frozen Green Peas (750g Bag),Frozen & Ice Cream,45,22,5,30,0.75,230,3,Frozen,Low
+ITEM-121,Cold Brew Coffee Concentrate (750ml),Beverages,30,9,9,26,1.2,310,2,Chilled,High
+ITEM-122,100% Pure Orange Juice (1.5L Jug),Beverages,35,14,10,28,1.6,420,1,Chilled,Low
+ITEM-123,Organic Green Tea Bags (50 Count),Beverages,50,16,8,14,0.15,180,3,Ambient,Low
+ITEM-124,Ginger Ale Soda Cans (12x330ml Pack),Beverages,20,40,14,12,4.2,350,2,Ambient,Low
+ITEM-125,Electrolyte Sports Drink (6x500ml),Beverages,30,24,16,20,3.3,240,3,Ambient,Low
+ITEM-126,Organic Gala Apples (1.5kg Bag),Fresh Produce,40,26,18,16,1.5,390,1,Ambient,Medium
+ITEM-127,Fresh English Cucumber (Single),Fresh Produce,70,30,5,5,0.35,310,1,Ambient,Medium
+ITEM-128,Organic Baby Spinach (250g Clamshell),Fresh Produce,35,22,18,10,0.25,340,1,Chilled,High
+ITEM-129,Cherry Tomatoes (500g Punnet),Fresh Produce,45,18,12,8,0.5,330,1,Ambient,High
+ITEM-130,Yellow Onions (2kg Mesh Bag),Fresh Produce,50,30,20,15,2.0,470,1,Ambient,Low
+ITEM-131,Organic Bananas (1 Bunch, ~1kg),Fresh Produce,65,22,14,15,1.0,520,1,Ambient,High
+ITEM-132,Boneless Chicken Breast (1kg Pack),Meat & Seafood,40,26,18,6,1.0,480,1,Chilled,Medium
+ITEM-133,Lean Ground Beef 90/10 (500g Tray),Meat & Seafood,35,20,15,5,0.5,430,1,Chilled,Medium
+ITEM-134,Thick-Cut Smoked Bacon (375g Pack),Meat & Seafood,40,28,12,3,0.38,360,2,Chilled,Low
+ITEM-135,Fresh Pork Chops (4 Count, 600g),Meat & Seafood,25,24,16,5,0.6,210,2,Chilled,Medium
+ITEM-136,Fresh Black Tiger Prawns (400g Tray),Meat & Seafood,20,22,15,5,0.4,170,1,Chilled,Medium
+ITEM-137,Extra Virgin Olive Oil (750ml Glass Bottle),Pantry & Dry Goods,30,8,8,30,1.25,260,2,Ambient,High
+ITEM-138,Basmati Rice Premium (5kg Bag),Pantry & Dry Goods,25,45,28,12,5.0,380,1,Ambient,Low
+ITEM-139,Penne Rigate Pasta (500g Box),Pantry & Dry Goods,60,20,12,6,0.5,410,2,Ambient,Low
+ITEM-140,Canned San Marzano Tomatoes (800g),Canned Goods,55,10,10,12,0.88,330,2,Ambient,Low
+ITEM-141,Canned Black Beans (400g Tin),Canned Goods,65,8,8,11,0.45,350,2,Ambient,Low
+ITEM-142,Canned Chunk Light Tuna (185g),Canned Goods,80,9,9,4,0.22,390,2,Ambient,Low
+ITEM-143,Creamy Peanut Butter (500g Jar),Pantry & Dry Goods,40,10,10,14,0.6,290,2,Ambient,High
+ITEM-144,Rolled Oats Whole Grain (1kg Tub),Pantry & Dry Goods,35,18,18,22,1.1,310,2,Ambient,Low
+ITEM-145,All-Purpose Wheat Flour (2kg Bag),Pantry & Dry Goods,30,22,14,18,2.0,340,2,Ambient,Medium
+ITEM-146,Pure Maple Syrup (375ml Bottle),Pantry & Dry Goods,25,9,6,20,0.65,190,3,Ambient,High
+ITEM-147,Tomato Basil Pasta Sauce (680g Jar),Pantry & Dry Goods,45,9,9,17,0.95,370,2,Ambient,High
+ITEM-148,Sriracha Hot Chili Sauce (480ml),Condiments & Sauces,50,7,7,22,0.55,280,3,Ambient,Low
+ITEM-149,Mayonnaise Real Squeeze Bottle (450ml),Condiments & Sauces,40,9,6,19,0.5,310,2,Ambient,Low
+ITEM-150,Traditional Hummus Dip (250g Tub),Deli & Prepared,30,12,12,6,0.28,290,1,Chilled,Medium
+ITEM-151,Fresh Guacamole Original (200g),Deli & Prepared,25,12,12,5,0.22,260,1,Chilled,Medium
+ITEM-152,Smoked Turkey Breast Slices (200g),Deli & Prepared,35,20,14,3,0.22,310,1,Chilled,Low
+ITEM-153,Dark Chocolate 70% Bar (100g),Bakery & Snacks,75,16,8,1,0.1,330,3,Ambient,Medium
+ITEM-154,Organic Honey Clover (500g Squeeze),Pantry & Dry Goods,30,8,6,16,0.55,220,3,Ambient,Low
+ITEM-155,Frozen Veggie Burger Patties (4-pack),Frozen & Ice Cream,25,15,15,8,0.45,200,2,Frozen,Medium
